@@ -1,0 +1,467 @@
+Starting Sequencer Demo
+System has 4 processors configured and 4 available.
+Using CPUS=1 from total available.
+Pthread Policy is SCHED_FIFO
+PTHREAD SCOPE PROCESS
+rt_max_prio=99
+rt_min_prio=1
+Service threads will run on 1 CPU cores
+pthread_create successful for service 1
+pthread_create successful for service 2
+Frame Sampler thread @ sec=0, msec=408
+pthread_create successful for service 3
+pthread_create successful for service 4
+Time-stamp with Image Analysis thread @ sec=0, msec=408
+Time-stamp Image Save to File thread @ sec=0, msec=408
+Difference Image Proc thread @ sec=0, msec=408
+pthread_create successful for service 5
+pthread_create successful for service 6
+pthread_create successful for service 7
+Start sequencer
+Send Time-stamped Image to Remote thread @ sec=0, msec=409
+pthread_create successful for sequeencer service 0
+Sequencer thread @ sec=0, msec=409
+Processed Image Save to File thread @ sec=0, msec=409
+10 sec Tick Debug thread @ sec=0, msec=409
+Thread idx=1 Count = 1 ,timestamp 0 sec, 0 msec (19 microsec), ((19791 nanosec))
+
+Thread idx=1 Count = 2 ,timestamp 0 sec, 0 msec (22 microsec), ((22084 nanosec))
+
+Thread idx=1 Count = 3 ,timestamp 0 sec, 0 msec (41 microsec), ((41510 nanosec))
+
+Thread idx=2 Count = 1 , timestamp 0 sec, 0 msec (40 microsec), ((40312 nanosec))
+
+Thread idx=4 Count = 1 ,timestamp 0 sec, 0 msec (38 microsec), ((38698 nanosec))
+
+Thread idx=6 Count = 1 ,timestamp 0 sec, 0 msec (36 microsec), ((36042 nanosec))
+
+Thread idx=1 Count = 4 ,timestamp 0 sec, 0 msec (43 microsec), ((43334 nanosec))
+
+Thread idx=1 Count = 5 ,timestamp 0 sec, 0 msec (37 microsec), ((37916 nanosec))
+
+Thread idx=1 Count = 6 ,timestamp 0 sec, 0 msec (38 microsec), ((38125 nanosec))
+
+Thread idx=2 Count = 2 , timestamp 0 sec, 0 msec (36 microsec), ((36302 nanosec))
+
+Thread idx=4 Count = 2 ,timestamp 0 sec, 0 msec (34 microsec), ((34947 nanosec))
+
+Thread idx=6 Count = 2 ,timestamp 0 sec, 0 msec (34 microsec), ((34635 nanosec))
+
+Thread idx=3 Count = 1 ,timestamp 0 sec, 0 msec (35 microsec), ((35937 nanosec))
+
+Thread idx=5 Count = 1 ,timestamp 0 sec, 0 msec (35 microsec), ((35521 nanosec))
+
+Thread idx=1 Count = 7 ,timestamp 0 sec, 0 msec (39 microsec), ((39999 nanosec))
+
+Thread idx=1 Count = 8 ,timestamp 0 sec, 0 msec (41 microsec), ((41041 nanosec))
+
+Thread idx=1 Count = 9 ,timestamp 0 sec, 0 msec (38 microsec), ((38333 nanosec))
+
+Thread idx=2 Count = 3 , timestamp 0 sec, 0 msec (39 microsec), ((39167 nanosec))
+
+Thread idx=4 Count = 3 ,timestamp 0 sec, 0 msec (35 microsec), ((35938 nanosec))
+
+Thread idx=6 Count = 3 ,timestamp 0 sec, 0 msec (39 microsec), ((39896 nanosec))
+
+Thread idx=1 Count = 10 ,timestamp 0 sec, 0 msec (39 microsec), ((39688 nanosec))
+
+Thread idx=1 Count = 11 ,timestamp 0 sec, 0 msec (39 microsec), ((39062 nanosec))
+
+Thread idx=1 Count = 12 ,timestamp 0 sec, 0 msec (40 microsec), ((40833 nanosec))
+
+Thread idx=2 Count = 4 , timestamp 0 sec, 0 msec (38 microsec), ((38386 nanosec))
+
+Thread idx=4 Count = 4 ,timestamp 0 sec, 0 msec (36 microsec), ((36979 nanosec))
+
+Thread idx=6 Count = 4 ,timestamp 0 sec, 0 msec (36 microsec), ((36563 nanosec))
+
+Thread idx=3 Count = 2 ,timestamp 0 sec, 0 msec (34 microsec), ((34896 nanosec))
+
+Thread idx=5 Count = 2 ,timestamp 0 sec, 0 msec (36 microsec), ((36562 nanosec))
+
+Thread idx=1 Count = 13 ,timestamp 0 sec, 0 msec (41 microsec), ((41094 nanosec))
+
+Thread idx=1 Count = 14 ,timestamp 0 sec, 0 msec (43 microsec), ((43072 nanosec))
+
+Thread idx=1 Count = 15 ,timestamp 0 sec, 0 msec (40 microsec), ((40417 nanosec))
+
+Thread idx=2 Count = 5 , timestamp 0 sec, 0 msec (39 microsec), ((39062 nanosec))
+
+Thread idx=4 Count = 5 ,timestamp 0 sec, 0 msec (36 microsec), ((36198 nanosec))
+
+Thread idx=6 Count = 5 ,timestamp 0 sec, 0 msec (36 microsec), ((36822 nanosec))
+
+Thread idx=1 Count = 16 ,timestamp 0 sec, 0 msec (42 microsec), ((42187 nanosec))
+
+Thread idx=1 Count = 17 ,timestamp 0 sec, 0 msec (41 microsec), ((41250 nanosec))
+
+Thread idx=1 Count = 18 ,timestamp 0 sec, 0 msec (40 microsec), ((40364 nanosec))
+
+Thread idx=2 Count = 6 , timestamp 0 sec, 0 msec (36 microsec), ((36979 nanosec))
+
+Thread idx=4 Count = 6 ,timestamp 0 sec, 0 msec (40 microsec), ((40729 nanosec))
+
+Thread idx=6 Count = 6 ,timestamp 0 sec, 0 msec (36 microsec), ((36459 nanosec))
+
+Thread idx=3 Count = 3 ,timestamp 0 sec, 0 msec (35 microsec), ((35573 nanosec))
+
+Thread idx=5 Count = 3 ,timestamp 0 sec, 0 msec (35 microsec), ((35781 nanosec))
+
+Thread idx=1 Count = 19 ,timestamp 0 sec, 0 msec (46 microsec), ((46615 nanosec))
+
+Thread idx=1 Count = 20 ,timestamp 0 sec, 0 msec (21 microsec), ((21771 nanosec))
+
+Thread idx=1 Count = 21 ,timestamp 0 sec, 0 msec (22 microsec), ((22500 nanosec))
+
+Thread idx=2 Count = 7 , timestamp 0 sec, 0 msec (18 microsec), ((18229 nanosec))
+
+Thread idx=4 Count = 7 ,timestamp 0 sec, 0 msec (16 microsec), ((16771 nanosec))
+
+Thread idx=6 Count = 7 ,timestamp 0 sec, 0 msec (17 microsec), ((17344 nanosec))
+
+Thread idx=1 Count = 22 ,timestamp 0 sec, 0 msec (39 microsec), ((39427 nanosec))
+
+Thread idx=1 Count = 23 ,timestamp 0 sec, 0 msec (41 microsec), ((41823 nanosec))
+
+Thread idx=1 Count = 24 ,timestamp 0 sec, 0 msec (44 microsec), ((44479 nanosec))
+
+Thread idx=2 Count = 8 , timestamp 0 sec, 0 msec (43 microsec), ((43021 nanosec))
+
+Thread idx=4 Count = 8 ,timestamp 0 sec, 0 msec (39 microsec), ((39895 nanosec))
+
+Thread idx=6 Count = 8 ,timestamp 0 sec, 0 msec (37 microsec), ((37343 nanosec))
+
+Thread idx=3 Count = 4 ,timestamp 0 sec, 0 msec (36 microsec), ((36926 nanosec))
+
+Thread idx=5 Count = 4 ,timestamp 0 sec, 0 msec (37 microsec), ((37812 nanosec))
+
+Thread idx=1 Count = 25 ,timestamp 0 sec, 0 msec (19 microsec), ((19531 nanosec))
+
+Thread idx=1 Count = 26 ,timestamp 0 sec, 0 msec (21 microsec), ((21406 nanosec))
+
+Thread idx=1 Count = 27 ,timestamp 0 sec, 0 msec (40 microsec), ((40937 nanosec))
+
+Thread idx=2 Count = 9 , timestamp 0 sec, 0 msec (38 microsec), ((38385 nanosec))
+
+Thread idx=4 Count = 9 ,timestamp 0 sec, 0 msec (36 microsec), ((36094 nanosec))
+
+Thread idx=6 Count = 9 ,timestamp 0 sec, 0 msec (36 microsec), ((36667 nanosec))
+
+Thread idx=1 Count = 28 ,timestamp 0 sec, 0 msec (38 microsec), ((38854 nanosec))
+
+Thread idx=1 Count = 29 ,timestamp 0 sec, 0 msec (38 microsec), ((38645 nanosec))
+
+Thread idx=1 Count = 30 ,timestamp 0 sec, 0 msec (39 microsec), ((39636 nanosec))
+
+Thread idx=2 Count = 10 , timestamp 0 sec, 0 msec (36 microsec), ((36354 nanosec))
+
+Thread idx=4 Count = 10 ,timestamp 0 sec, 0 msec (35 microsec), ((35104 nanosec))
+
+Thread idx=6 Count = 10 ,timestamp 0 sec, 0 msec (34 microsec), ((34427 nanosec))
+
+Thread idx=3 Count = 5 ,timestamp 0 sec, 0 msec (34 microsec), ((34427 nanosec))
+
+Thread idx=5 Count = 5 ,timestamp 0 sec, 0 msec (34 microsec), ((34010 nanosec))
+
+Thread idx=7 Count = 1 ,timestamp 0 sec, 0 msec (38 microsec), ((38958 nanosec))
+
+Thread idx=1 Count = 31 ,timestamp 0 sec, 0 msec (41 microsec), ((41511 nanosec))
+
+Thread idx=1 Count = 32 ,timestamp 0 sec, 0 msec (39 microsec), ((39792 nanosec))
+
+Thread idx=1 Count = 33 ,timestamp 0 sec, 0 msec (41 microsec), ((41823 nanosec))
+
+Thread idx=2 Count = 11 , timestamp 0 sec, 0 msec (37 microsec), ((37812 nanosec))
+
+Thread idx=4 Count = 11 ,timestamp 0 sec, 0 msec (35 microsec), ((35417 nanosec))
+
+Thread idx=6 Count = 11 ,timestamp 0 sec, 0 msec (35 microsec), ((35677 nanosec))
+
+Thread idx=1 Count = 34 ,timestamp 0 sec, 0 msec (40 microsec), ((40989 nanosec))
+
+Thread idx=1 Count = 35 ,timestamp 0 sec, 0 msec (40 microsec), ((40468 nanosec))
+
+Thread idx=1 Count = 36 ,timestamp 0 sec, 0 msec (40 microsec), ((40885 nanosec))
+
+Thread idx=2 Count = 12 , timestamp 0 sec, 0 msec (40 microsec), ((40520 nanosec))
+
+Thread idx=4 Count = 12 ,timestamp 0 sec, 0 msec (37 microsec), ((37084 nanosec))
+
+Thread idx=6 Count = 12 ,timestamp 0 sec, 0 msec (37 microsec), ((37864 nanosec))
+
+Thread idx=3 Count = 6 ,timestamp 0 sec, 0 msec (37 microsec), ((37864 nanosec))
+
+Thread idx=5 Count = 6 ,timestamp 0 sec, 0 msec (38 microsec), ((38072 nanosec))
+
+Thread idx=1 Count = 37 ,timestamp 0 sec, 0 msec (40 microsec), ((40260 nanosec))
+
+Thread idx=1 Count = 38 ,timestamp 0 sec, 0 msec (38 microsec), ((38802 nanosec))
+
+Thread idx=1 Count = 39 ,timestamp 0 sec, 0 msec (41 microsec), ((41771 nanosec))
+
+Thread idx=2 Count = 13 , timestamp 0 sec, 0 msec (49 microsec), ((49166 nanosec))
+
+Thread idx=4 Count = 13 ,timestamp 0 sec, 0 msec (41 microsec), ((41511 nanosec))
+
+Thread idx=6 Count = 13 ,timestamp 0 sec, 0 msec (41 microsec), ((41615 nanosec))
+
+Thread idx=1 Count = 40 ,timestamp 0 sec, 0 msec (42 microsec), ((42292 nanosec))
+
+Thread idx=1 Count = 41 ,timestamp 0 sec, 0 msec (41 microsec), ((41979 nanosec))
+
+Thread idx=1 Count = 42 ,timestamp 0 sec, 0 msec (40 microsec), ((40261 nanosec))
+
+Thread idx=2 Count = 14 , timestamp 0 sec, 0 msec (37 microsec), ((37083 nanosec))
+
+Thread idx=4 Count = 14 ,timestamp 0 sec, 0 msec (35 microsec), ((35729 nanosec))
+
+Thread idx=6 Count = 14 ,timestamp 0 sec, 0 msec (35 microsec), ((35000 nanosec))
+
+Thread idx=3 Count = 7 ,timestamp 0 sec, 0 msec (34 microsec), ((34479 nanosec))
+
+Thread idx=5 Count = 7 ,timestamp 0 sec, 0 msec (34 microsec), ((34219 nanosec))
+
+Thread idx=1 Count = 43 ,timestamp 0 sec, 0 msec (40 microsec), ((40834 nanosec))
+
+Thread idx=1 Count = 44 ,timestamp 0 sec, 0 msec (38 microsec), ((38542 nanosec))
+
+Thread idx=1 Count = 45 ,timestamp 0 sec, 0 msec (42 microsec), ((42499 nanosec))
+
+Thread idx=2 Count = 15 , timestamp 0 sec, 0 msec (37 microsec), ((37083 nanosec))
+
+Thread idx=4 Count = 15 ,timestamp 0 sec, 0 msec (36 microsec), ((36718 nanosec))
+
+Thread idx=6 Count = 15 ,timestamp 0 sec, 0 msec (37 microsec), ((37865 nanosec))
+
+Thread idx=1 Count = 46 ,timestamp 0 sec, 0 msec (38 microsec), ((38749 nanosec))
+
+Thread idx=1 Count = 47 ,timestamp 0 sec, 0 msec (39 microsec), ((39896 nanosec))
+
+Thread idx=1 Count = 48 ,timestamp 0 sec, 0 msec (41 microsec), ((41979 nanosec))
+
+Thread idx=2 Count = 16 , timestamp 0 sec, 0 msec (40 microsec), ((40573 nanosec))
+
+Thread idx=4 Count = 16 ,timestamp 0 sec, 0 msec (39 microsec), ((39375 nanosec))
+
+Thread idx=6 Count = 16 ,timestamp 0 sec, 0 msec (38 microsec), ((38073 nanosec))
+
+Thread idx=3 Count = 8 ,timestamp 0 sec, 0 msec (37 microsec), ((37552 nanosec))
+
+Thread idx=5 Count = 8 ,timestamp 0 sec, 0 msec (34 microsec), ((34688 nanosec))
+
+Thread idx=1 Count = 49 ,timestamp 0 sec, 0 msec (41 microsec), ((41771 nanosec))
+
+Thread idx=1 Count = 50 ,timestamp 0 sec, 0 msec (39 microsec), ((39948 nanosec))
+
+Thread idx=1 Count = 51 ,timestamp 0 sec, 0 msec (42 microsec), ((42083 nanosec))
+
+Thread idx=2 Count = 17 , timestamp 0 sec, 0 msec (37 microsec), ((37916 nanosec))
+
+Thread idx=4 Count = 17 ,timestamp 0 sec, 0 msec (35 microsec), ((35781 nanosec))
+
+Thread idx=6 Count = 17 ,timestamp 0 sec, 0 msec (36 microsec), ((36823 nanosec))
+
+Thread idx=1 Count = 52 ,timestamp 0 sec, 0 msec (39 microsec), ((39375 nanosec))
+
+Thread idx=1 Count = 53 ,timestamp 0 sec, 0 msec (40 microsec), ((40885 nanosec))
+
+Thread idx=1 Count = 54 ,timestamp 0 sec, 0 msec (38 microsec), ((38906 nanosec))
+
+Thread idx=2 Count = 18 , timestamp 0 sec, 0 msec (36 microsec), ((36406 nanosec))
+
+Thread idx=4 Count = 18 ,timestamp 0 sec, 0 msec (36 microsec), ((36355 nanosec))
+
+Thread idx=6 Count = 18 ,timestamp 0 sec, 0 msec (35 microsec), ((35520 nanosec))
+
+Thread idx=3 Count = 9 ,timestamp 0 sec, 0 msec (34 microsec), ((34687 nanosec))
+
+Thread idx=5 Count = 9 ,timestamp 0 sec, 0 msec (35 microsec), ((35729 nanosec))
+
+Thread idx=1 Count = 55 ,timestamp 0 sec, 0 msec (40 microsec), ((40677 nanosec))
+
+Thread idx=1 Count = 56 ,timestamp 0 sec, 0 msec (40 microsec), ((40521 nanosec))
+
+Thread idx=1 Count = 57 ,timestamp 0 sec, 0 msec (40 microsec), ((40625 nanosec))
+
+Thread idx=2 Count = 19 , timestamp 0 sec, 0 msec (40 microsec), ((40782 nanosec))
+
+Thread idx=4 Count = 19 ,timestamp 0 sec, 0 msec (36 microsec), ((36563 nanosec))
+
+Thread idx=6 Count = 19 ,timestamp 0 sec, 0 msec (38 microsec), ((38229 nanosec))
+
+Thread idx=1 Count = 58 ,timestamp 0 sec, 0 msec (39 microsec), ((39583 nanosec))
+
+Thread idx=1 Count = 59 ,timestamp 0 sec, 0 msec (40 microsec), ((40364 nanosec))
+
+Thread idx=1 Count = 60 ,timestamp 0 sec, 0 msec (44 microsec), ((44739 nanosec))
+
+Thread idx=2 Count = 20 , timestamp 0 sec, 0 msec (40 microsec), ((40625 nanosec))
+
+Thread idx=4 Count = 20 ,timestamp 0 sec, 0 msec (43 microsec), ((43906 nanosec))
+
+Thread idx=6 Count = 20 ,timestamp 0 sec, 0 msec (37 microsec), ((37656 nanosec))
+
+Thread idx=3 Count = 10 ,timestamp 0 sec, 0 msec (38 microsec), ((38906 nanosec))
+
+Thread idx=5 Count = 10 ,timestamp 0 sec, 0 msec (38 microsec), ((38697 nanosec))
+
+Thread idx=7 Count = 2 ,timestamp 0 sec, 0 msec (40 microsec), ((40625 nanosec))
+
+Thread idx=1 Count = 61 ,timestamp 0 sec, 0 msec (42 microsec), ((42343 nanosec))
+
+Thread idx=1 Count = 62 ,timestamp 0 sec, 0 msec (38 microsec), ((38906 nanosec))
+
+Thread idx=1 Count = 63 ,timestamp 0 sec, 0 msec (41 microsec), ((41250 nanosec))
+
+Thread idx=2 Count = 21 , timestamp 0 sec, 0 msec (38 microsec), ((38698 nanosec))
+
+Thread idx=4 Count = 21 ,timestamp 0 sec, 0 msec (35 microsec), ((35521 nanosec))
+
+Thread idx=6 Count = 21 ,timestamp 0 sec, 0 msec (36 microsec), ((36250 nanosec))
+
+Thread idx=1 Count = 64 ,timestamp 0 sec, 0 msec (41 microsec), ((41458 nanosec))
+
+Thread idx=1 Count = 65 ,timestamp 0 sec, 0 msec (41 microsec), ((41718 nanosec))
+
+Thread idx=1 Count = 66 ,timestamp 0 sec, 0 msec (39 microsec), ((39166 nanosec))
+
+Thread idx=2 Count = 22 , timestamp 0 sec, 0 msec (37 microsec), ((37761 nanosec))
+
+Thread idx=4 Count = 22 ,timestamp 0 sec, 0 msec (35 microsec), ((35677 nanosec))
+
+Thread idx=6 Count = 22 ,timestamp 0 sec, 0 msec (34 microsec), ((34843 nanosec))
+
+Thread idx=3 Count = 11 ,timestamp 0 sec, 0 msec (34 microsec), ((34635 nanosec))
+
+Thread idx=5 Count = 11 ,timestamp 0 sec, 0 msec (34 microsec), ((34323 nanosec))
+
+Thread idx=1 Count = 67 ,timestamp 0 sec, 0 msec (40 microsec), ((40573 nanosec))
+
+Thread idx=1 Count = 68 ,timestamp 0 sec, 0 msec (41 microsec), ((41614 nanosec))
+
+Thread idx=1 Count = 69 ,timestamp 0 sec, 0 msec (41 microsec), ((41042 nanosec))
+
+Thread idx=2 Count = 23 , timestamp 0 sec, 0 msec (37 microsec), ((37187 nanosec))
+
+Thread idx=4 Count = 23 ,timestamp 0 sec, 0 msec (36 microsec), ((36979 nanosec))
+
+Thread idx=6 Count = 23 ,timestamp 0 sec, 0 msec (38 microsec), ((38385 nanosec))
+
+Thread idx=1 Count = 70 ,timestamp 0 sec, 0 msec (40 microsec), ((40729 nanosec))
+
+Thread idx=1 Count = 71 ,timestamp 0 sec, 0 msec (41 microsec), ((41927 nanosec))
+
+Thread idx=1 Count = 72 ,timestamp 0 sec, 0 msec (40 microsec), ((40520 nanosec))
+
+Thread idx=2 Count = 24 , timestamp 0 sec, 0 msec (41 microsec), ((41146 nanosec))
+
+Thread idx=4 Count = 24 ,timestamp 0 sec, 0 msec (37 microsec), ((37864 nanosec))
+
+Thread idx=6 Count = 24 ,timestamp 0 sec, 0 msec (37 microsec), ((37761 nanosec))
+
+Thread idx=3 Count = 12 ,timestamp 0 sec, 0 msec (38 microsec), ((38281 nanosec))
+
+Thread idx=5 Count = 12 ,timestamp 0 sec, 0 msec (38 microsec), ((38021 nanosec))
+
+Thread idx=1 Count = 73 ,timestamp 0 sec, 0 msec (39 microsec), ((39219 nanosec))
+
+Thread idx=1 Count = 74 ,timestamp 0 sec, 0 msec (41 microsec), ((41666 nanosec))
+
+Thread idx=1 Count = 75 ,timestamp 0 sec, 0 msec (41 microsec), ((41146 nanosec))
+
+Thread idx=2 Count = 25 , timestamp 0 sec, 0 msec (38 microsec), ((38177 nanosec))
+
+Thread idx=4 Count = 25 ,timestamp 0 sec, 0 msec (35 microsec), ((35729 nanosec))
+
+Thread idx=6 Count = 25 ,timestamp 0 sec, 0 msec (37 microsec), ((37187 nanosec))
+
+Thread idx=1 Count = 76 ,timestamp 0 sec, 0 msec (41 microsec), ((41302 nanosec))
+
+Thread idx=1 Count = 77 ,timestamp 0 sec, 0 msec (39 microsec), ((39374 nanosec))
+
+Thread idx=1 Count = 78 ,timestamp 0 sec, 0 msec (40 microsec), ((40209 nanosec))
+
+Thread idx=2 Count = 26 , timestamp 0 sec, 0 msec (37 microsec), ((37187 nanosec))
+
+Thread idx=4 Count = 26 ,timestamp 0 sec, 0 msec (35 microsec), ((35260 nanosec))
+
+Thread idx=6 Count = 26 ,timestamp 0 sec, 0 msec (34 microsec), ((34948 nanosec))
+
+Thread idx=3 Count = 13 ,timestamp 0 sec, 0 msec (34 microsec), ((34011 nanosec))
+
+Thread idx=5 Count = 13 ,timestamp 0 sec, 0 msec (34 microsec), ((34583 nanosec))
+
+Thread idx=1 Count = 79 ,timestamp 0 sec, 0 msec (40 microsec), ((40417 nanosec))
+
+Thread idx=1 Count = 80 ,timestamp 0 sec, 0 msec (41 microsec), ((41927 nanosec))
+
+Thread idx=1 Count = 81 ,timestamp 0 sec, 0 msec (42 microsec), ((42656 nanosec))
+
+Thread idx=2 Count = 27 , timestamp 0 sec, 0 msec (46 microsec), ((46302 nanosec))
+
+Thread idx=4 Count = 27 ,timestamp 0 sec, 0 msec (40 microsec), ((40625 nanosec))
+
+Thread idx=6 Count = 27 ,timestamp 0 sec, 0 msec (40 microsec), ((40312 nanosec))
+
+Thread idx=1 Count = 82 ,timestamp 0 sec, 0 msec (39 microsec), ((39531 nanosec))
+
+Thread idx=1 Count = 83 ,timestamp 0 sec, 0 msec (38 microsec), ((38020 nanosec))
+
+Thread idx=1 Count = 84 ,timestamp 0 sec, 0 msec (41 microsec), ((41927 nanosec))
+
+Thread idx=2 Count = 28 , timestamp 0 sec, 0 msec (38 microsec), ((38385 nanosec))
+
+Thread idx=4 Count = 28 ,timestamp 0 sec, 0 msec (35 microsec), ((35521 nanosec))
+
+Thread idx=6 Count = 28 ,timestamp 0 sec, 0 msec (35 microsec), ((35885 nanosec))
+
+Thread idx=3 Count = 14 ,timestamp 0 sec, 0 msec (36 microsec), ((36510 nanosec))
+
+Thread idx=5 Count = 14 ,timestamp 0 sec, 0 msec (34 microsec), ((34895 nanosec))
+
+Thread idx=1 Count = 85 ,timestamp 0 sec, 0 msec (43 microsec), ((43542 nanosec))
+
+Thread idx=1 Count = 86 ,timestamp 0 sec, 0 msec (40 microsec), ((40989 nanosec))
+
+Thread idx=1 Count = 87 ,timestamp 0 sec, 0 msec (39 microsec), ((39791 nanosec))
+
+Thread idx=2 Count = 29 , timestamp 0 sec, 0 msec (40 microsec), ((40312 nanosec))
+
+Thread idx=4 Count = 29 ,timestamp 0 sec, 0 msec (36 microsec), ((36302 nanosec))
+
+Thread idx=6 Count = 29 ,timestamp 0 sec, 0 msec (36 microsec), ((36719 nanosec))
+
+Thread idx=1 Count = 88 ,timestamp 0 sec, 0 msec (39 microsec), ((39844 nanosec))
+
+Thread idx=1 Count = 89 ,timestamp 0 sec, 0 msec (42 microsec), ((42083 nanosec))
+
+Thread idx=1 Count = 90 ,timestamp 0 sec, 0 msec (61 microsec), ((61979 nanosec))
+
+Thread idx=2 Count = 30 , timestamp 0 sec, 0 msec (57 microsec), ((57291 nanosec))
+
+Thread idx=4 Count = 30 ,timestamp 0 sec, 0 msec (41 microsec), ((41823 nanosec))
+
+Thread idx=6 Count = 30 ,timestamp 0 sec, 0 msec (39 microsec), ((39011 nanosec))
+
+Thread idx=3 Count = 15 ,timestamp 0 sec, 0 msec (38 microsec), ((38645 nanosec))
+
+Thread idx=5 Count = 15 ,timestamp 0 sec, 0 msec (38 microsec), ((38698 nanosec))
+
+Thread idx=7 Count = 3 ,timestamp 0 sec, 0 msec (243 microsec), ((243020 nanosec))
+
+
+TEST COMPLETE
+Thread idx=1 ,WCET timestamp 0 sec, 0 msec (61 microsec), ((61979 nanosec))
+
+Thread idx=2 ,WCET timestamp 0 sec, 0 msec (57 microsec), ((57291 nanosec))
+
+Thread idx=3 ,WCET timestamp 0 sec, 0 msec (38 microsec), ((38906 nanosec))
+
+Thread idx=4 ,WCET timestamp 0 sec, 0 msec (43 microsec), ((43906 nanosec))
+
+Thread idx=5 ,WCET timestamp 0 sec, 0 msec (38 microsec), ((38698 nanosec))
+
+Thread idx=6 ,WCET timestamp 0 sec, 0 msec (41 microsec), ((41615 nanosec))
+
+Thread idx=7 ,WCET timestamp 0 sec, 0 msec (243 microsec), ((243020 nanosec))
+

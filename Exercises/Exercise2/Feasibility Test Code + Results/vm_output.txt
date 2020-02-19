@@ -1,0 +1,119 @@
+*************Feasibility Tests*************
+Using Completion Time and Scheduling Point
+
+EX-0 with services:
+	C1 = 1, T1 = 2
+	C2 = 1, T2 = 10
+	C3 = 2, T3 = 15
+Utilization = 0.733
+Completion Time = FEASIBLE
+Scheduling Point = FEASIBLE
+RM  over LCM = FEASIBLE
+LLF over LCM = FEASIBLE
+EDF over LCM = FEASIBLE
+
+EX-1 with services:
+	C1 = 1, T1 = 2
+	C2 = 1, T2 = 5
+	C3 = 2, T3 = 7
+Utilization = 0.986
+Completion Time = INFEASIBLE
+Scheduling Point = INFEASIBLE
+RM  over LCM = INFEASIBLE
+LLF over LCM = FEASIBLE
+EDF over LCM = FEASIBLE
+
+EX-2 with services:
+	C1 = 1, T1 = 2
+	C2 = 1, T2 = 5
+	C3 = 1, T3 = 7
+	C4 = 2, T4 = 13
+Utilization = 0.997
+Completion Time = INFEASIBLE
+Scheduling Point = INFEASIBLE
+RM  over LCM = INFEASIBLE
+LLF over LCM = FEASIBLE
+EDF over LCM = FEASIBLE
+
+EX-3 with services:
+	C1 = 1, T1 = 3
+	C2 = 2, T2 = 5
+	C3 = 3, T3 = 15
+Utilization = 0.933
+Completion Time = FEASIBLE
+Scheduling Point = FEASIBLE
+RM  over LCM = FEASIBLE
+LLF over LCM = FEASIBLE
+EDF over LCM = FEASIBLE
+
+EX-4 with services:
+	C1 = 1, T1 = 2
+	C2 = 1, T2 = 4
+	C3 = 4, T3 = 16
+Utilization = 1.000
+Completion Time = FEASIBLE
+Scheduling Point = FEASIBLE
+RM  over LCM = FEASIBLE
+LLF over LCM = FEASIBLE
+EDF over LCM = FEASIBLE
+
+EX-5 with services:
+	C1 = 1, T1 = 2
+	C2 = 2, T2 = 5
+	C3 = 1, T3 = 10
+Utilization = 1.000
+Completion Time = FEASIBLE
+Scheduling Point = FEASIBLE
+RM  over LCM = FEASIBLE
+LLF over LCM = FEASIBLE
+EDF over LCM = FEASIBLE
+
+EX-6 with services:
+	C1 = 1, T1 = 2
+	C2 = 1, T2 = 5
+	C3 = 1, T3 = 7
+	C4 = 2, T4 = 13
+Utilization = 0.997
+Completion Time = INFEASIBLE
+Scheduling Point = INFEASIBLE
+RM  over LCM = INFEASIBLE
+LLF over LCM = FEASIBLE
+EDF over LCM = FEASIBLE
+
+EX-7 with services:
+	C1 = 1, T1 = 3
+	C2 = 2, T2 = 5
+	C3 = 4, T3 = 15
+Utilization = 1.000
+Completion Time = FEASIBLE
+Scheduling Point = FEASIBLE
+RM  over LCM = FEASIBLE
+LLF over LCM = FEASIBLE
+EDF over LCM = FEASIBLE
+
+EX-8 with services:
+	C1 = 1, T1 = 2
+	C2 = 1, T2 = 5
+	C3 = 1, T3 = 7
+	C4 = 2, T4 = 13
+Utilization = 0.997
+Completion Time = INFEASIBLE
+Scheduling Point = INFEASIBLE
+RM  over LCM = INFEASIBLE
+LLF over LCM = FEASIBLE
+EDF over LCM = FEASIBLE
+
+EX-9 with services:
+	C1 = 1, T1 = 6
+	C2 = 2, T2 = 8
+	C3 = 4, T3 = 12
+	C4 = 6, T4 = 24
+Utilization = 1.000
+Completion Time = FEASIBLE
+Scheduling Point = FEASIBLE
+RM  over LCM = FEASIBLE
+LLF over LCM = FEASIBLE
+EDF over LCM = FEASIBLE
+
+
+TEST COMPLETE 

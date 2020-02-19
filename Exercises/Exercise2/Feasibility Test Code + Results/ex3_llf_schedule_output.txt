@@ -1,0 +1,22 @@
+Scheduler is LLF
+Task 0 with T=3, and C=1
+Task 1 with T=5, and C=2
+Task 2 with T=15, and C=3
+
+012
+x--
+-x-
+-x-
+x--
+--x
+-x-
+x--
+-x-
+--x
+x--
+-x-
+-x-
+x--
+--x
+---
+
